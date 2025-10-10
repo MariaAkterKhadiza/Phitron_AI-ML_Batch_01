@@ -1,0 +1,81 @@
+Module 5 – In-Built Data Structures  (Explanation  Doc)
+What is a tuple in Python?
+A) Mutable ordered collection
+B) Immutable ordered collection
+C) Mutable unordered collection
+D) Immutable unordered collection
+উত্তর: B
+ব্যাখ্যা: Tuple হলো immutable ordered collection; একবার তৈরি হলে পরিবর্তন করা যায় না।
+
+What is a set in Python?
+A) Ordered and mutable
+B) Ordered and immutable
+C) Unordered and mutable
+D) Unordered and immutable
+উত্তর: C
+ব্যাখ্যা: Set হলো unordered এবং mutable collection যেখানে duplicate element থাকে না।
+
+Which of the following correctly creates a dictionary?
+A) d = {"name": "Amit"}
+B) d = ["name": "Amit"]
+C) d = ("name": "Amit")
+D) d = <"name": "Amit">
+উত্তর: A
+ব্যাখ্যা: Dictionary {} ব্র্যাকেটের মধ্যে key-value pair দিয়ে তৈরি হয়।
+
+How do you add an element to a set?
+A) append()
+B) add()
+C) insert()
+D) update()
+উত্তর: B
+ব্যাখ্যা: add() method ব্যবহার করে set-এ নতুন element যোগ করা হয়।
+
+Which function returns the number of items in a list, tuple, set, or dictionary?
+A) count()
+B) size()
+C) len()
+D) length()
+উত্তর: C
+ব্যাখ্যা: len() function ব্যবহার করে collection-এর item সংখ্যা জানা যায়।
+
+Which of the following data structures allows duplicate elements?
+A) Set
+B) Tuple
+C) Dictionary
+D) None
+উত্তর: B
+ব্যাখ্যা: Tuple এবং list duplicate element রাখতে পারে, কিন্তু set পারে না।
+
+What is the output of {'a': 1, 'b': 2}.keys()?
+A) ['a', 'b']
+B) ('a', 'b')
+C) dict_keys(['a', 'b'])
+D) {'a', 'b'}
+উত্তর: C
+ব্যাখ্যা: keys() একটি dict_keys object রিটার্ন করে যা key-এর List দেখায়।
+
+Which operation combines two sets without duplicates?
+A) +
+B) |
+C) &
+D) -
+উত্তর: B
+ব্যাখ্যা: | অপারেটর দুটি set-এর union প্রদান করে, অর্থাৎ সব unique element একত্রিত করে।
+
+Which method is used to remove an item from a dictionary by key?
+A) remove()
+B) delete()
+C) pop()
+D) clear()
+উত্তর: C
+ব্যাখ্যা: pop(key) নির্দিষ্ট key-value pair dictionary থেকে মুছে দেয়।
+
+Which of the following data structures stores data as key-value pairs?
+A) List
+B) Tuple
+C) Dictionary
+D) Set
+উত্তর: C
+ব্যাখ্যা: Dictionary key-value mapping আকারে ডেটা সংরক্ষণ করে।
+
